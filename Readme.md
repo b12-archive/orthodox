@@ -1,10 +1,16 @@
-#                                                                      <a id="/" >![orthodox](https://cdn.rawgit.com/studio-b12/orthodox/4f60f2c/logo.png)
+<h1><img
+  alt="orthodox"
+  width="420"
+  height="112"
+  src="https://cdn.rawgit.com/studio-b12/orthodox/4d7afcc/logo.png"
+  id="/"
+/></h1>
 
 **Styles as an object – a strong, universal specification**
 
 &nbsp;
 
-##                                                                 <a id="/tldr" >TL;DR
+##                                                                 <a id="/tldr" >TL;DR                                                                      </a>
 
 There’s this popular and powerful concept of writing styles in JS:
 
