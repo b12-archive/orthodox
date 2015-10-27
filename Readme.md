@@ -6,13 +6,17 @@
   id="/"
 /></h1>
 
-**Styles as an object – a strong, universal specification**
+**Styles as a JS object**  
+**– a strong, universal specification**
+
+
+
 
 &nbsp;
 
 ##                                                                 <a id="/tldr" >TL;DR                                                                      </a>
 
-There’s this popular and powerful concept of writing styles in JS:
+There’s this popular and powerful concept of describing styles as an object in JS:
 
 ```js
 {
@@ -27,4 +31,6 @@ There’s this popular and powerful concept of writing styles in JS:
 height:30px;width:20px;
 ```
 
-[A lot] of tools do this – but they handle some edge cases differently. This spec defines a common ground compatible with all of these tools.
+[A lot of tools](#/tools) do this – but they handle some edge cases differently. This spec defines a common ground compatible with all of these tools.
+
+Write orthodox styles – they’ll work in *[React][]*, *[Cycle.js][]* and everywhere!
