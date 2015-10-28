@@ -73,4 +73,18 @@ It just boils down to three simple rules:
   };
   ```
 
-3. (Coming soon)
+3. Always use a string with units for a property’s value.
+
+  ```js
+  // Bad:
+  {
+    'font-size': 20,
+    'line-height': 20 * 2,
+  };
+
+  // Good:
+  {
+    'font-size': '20px',
+    'line-height': `${20 * 2}px`
+  };
+  ```
