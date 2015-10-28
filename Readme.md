@@ -98,7 +98,7 @@ It just boils down to three simple rules:
 
 ##                                                                 <a id="/spec" >The spec                                                                   </a>
 
-A data-based spec suite is coming soon. Expect something along the lines of [the *mustache* spec](https://github.com/mustache/spec/tree/83b0721610a4e11832e83df19c73ace3289972b9/specs) or [the *parametric.svg* spec](https://github.com/parametric-svg/-/tree/fcd1d5298f58bc5c634ec062d74e4f155c14701d/packages/parametric-svg-spec/specs)
+A data-based spec suite is coming over the next weeks. Expect something along the lines of [the *mustache* spec](https://github.com/mustache/spec/tree/83b0721610a4e11832e83df19c73ace3289972b9/specs) or [the *parametric.svg* spec](https://github.com/parametric-svg/-/tree/fcd1d5298f58bc5c634ec062d74e4f155c14701d/packages/parametric-svg-spec/specs)
 
 
 
