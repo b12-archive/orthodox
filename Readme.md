@@ -34,7 +34,7 @@ width: 20px;
 
 [A lot of tools](#/tools) do this – but they handle some edge cases differently. This spec defines a common ground compatible with all of these tools.
 
-Write orthodox styles – they’ll work in *[React][]*, *[Cycle.js][]* and everywhere!
+Write orthodox styles – they’ll work in *[React](https://facebook.github.io/react/)*, [*elm*](http://elm-lang.org/) and [everywhere](#/tools)!
 
 
 
@@ -97,3 +97,24 @@ It just boils down to three simple rules:
 ##                                                                 <a id="/spec" >The spec                                                                   </a>
 
 A data-based spec suite is coming soon. Expect something along the lines of [the *mustache* spec](https://github.com/mustache/spec/tree/83b0721610a4e11832e83df19c73ace3289972b9/specs) or [the *parametric.svg* spec](https://github.com/parametric-svg/-/tree/fcd1d5298f58bc5c634ec062d74e4f155c14701d/packages/parametric-svg-spec/specs)
+
+
+
+
+&nbsp;
+
+##                                                                <a id="/tools" >Compatible tools                                                           </a>
+
+We made the spec for interoperability between existing tools like:
+
+* [*React*](https://facebook.github.io/react/)
+* [*elm*](http://elm-lang.org/)
+* [*Cycle.js*](http://cycle.js.org/)
+* [*virtual-dom*](https://github.com/Matt-Esch/virtual-dom)
+* [*Free style*](https://github.com/blakeembrey/free-style)
+* [*hyperscript*](https://github.com/dominictarr/hyperscript)
+* [*Mithril*](http://mithril.js.org/)
+* [*Restyle*](https://github.com/WebReflection/restyle)
+* [*superviews.js*](https://github.com/davidjamesstone/superviews.js)
+
+Expect a test suite for these tools to come along with [the spec](#/spec).
