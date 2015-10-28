@@ -118,3 +118,12 @@ We made the spec for interoperability between existing tools like:
 * [*superviews.js*](https://github.com/davidjamesstone/superviews.js)
 
 Expect a test suite for these tools to come along with [the spec](#/spec).
+
+
+
+
+&nbsp;
+
+##                                                              <a id="/license" >License                                                                    </a>
+
+[MIT](./License.md) © [Studio B12 GmbH](http://github.com/studio-b12)
