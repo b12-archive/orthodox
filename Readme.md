@@ -48,16 +48,18 @@ It just boils down to three simple rules:
 1. One object maps to one string of style properties separated by semicolons.
 
   ```js
+  const myOrthodoxStyle = {width: '30px'};
+
   // In React + JSX:
-  ReactDOMServer.renderToString(<div style={{width: '30px'}}></div>);
+  ReactDOMServer.renderToString(<div style={myOrthodoxStyle}></div>);
   //» '<div style="width:30px;"></div>'
 
   // In Restyle:
-  restyle({'.my-class': {width: '30px'}});
+  restyle({'.my-class': myOrthodoxStyle});
   //» '.my-class{width:30px;}'
   ```
 
-2. Whenever you write a property whose name has a dash in it, just type the dash.
+2. Whenever you write a property with a dash in its name, just type the dash.
 
   ```js
   // Bad:
@@ -69,7 +71,7 @@ It just boils down to three simple rules:
   // Good:
   {
     'min-height': '20px',
-    '-ms-user-select': 'none',
+    '-webkit-user-select': 'none',
   };
   ```
 
@@ -79,13 +81,13 @@ It just boils down to three simple rules:
   // Bad:
   {
     'font-size': 20,
-    'line-height': 20 * 2,
+    'padding-top': 20 * 2,
   };
 
   // Good:
   {
     'font-size': '20px',
-    'line-height': `${20 * 2}px`
+    'padding-top': `${20 * 2}px`
   };
   ```
 
