@@ -57,6 +57,20 @@ It just boils down to three simple rules:
   //» '.my-class{width:30px;}'
   ```
 
-2. (Coming soon)
+2. Whenever you write a property whose name has a dash in it, just type the dash.
+
+  ```js
+  // Bad:
+  {
+    minHeight: '20px',
+    WebkitUserSelect: 'none',
+  };
+
+  // Good:
+  {
+    'min-height': '20px',
+    '-ms-user-select': 'none',
+  };
+  ```
 
 3. (Coming soon)
