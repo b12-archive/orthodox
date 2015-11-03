@@ -21,5 +21,8 @@
     "stylesheet"
   ],
   "author": "Tomek Wiszniewski <t.wiszniewski@gmail.com> (https://github.com/tomekwi)",
+  "devDependencies": {
+    "orthodox-spec": "1.0.0"
+  },
   "license": "MIT"
 }
