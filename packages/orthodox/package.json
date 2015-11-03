@@ -1,0 +1,25 @@
+{
+  "name": "orthodox",
+  "version": "0.0.0",
+  "description": "Render a style object into a style string",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:studio-b12/orthodox"
+  },
+  "keywords": [
+    "universal",
+    "style",
+    "jss",
+    "react",
+    "elm",
+    "virtual-dom",
+    "style-object",
+    "css",
+    "stylesheet"
+  ],
+  "author": "Tomek Wiszniewski <t.wiszniewski@gmail.com> (https://github.com/tomekwi)",
+  "license": "MIT"
+}
