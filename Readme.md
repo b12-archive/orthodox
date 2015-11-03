@@ -43,6 +43,16 @@ Write orthodox styles – they’ll work in *[React](https://facebook.github.io/
 
 &nbsp;
 
+##                                                             <a id="/packages" >Packages                                                                   </a>
+
+* [orthodox](packages/orthodox) – minimal implementation
+* [orthodox-spec](packages/orthodox-spec) – the spec
+
+
+
+
+&nbsp;
+
 ##                                                               <a id="/format" >The format                                                                 </a>
 
 It just boils down to three simple rules:
