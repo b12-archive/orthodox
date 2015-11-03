@@ -1,0 +1,24 @@
+# The trailing semicolon is always optional. You can also ignore insignificant
+# whitespace in your output.
+
+- what: A single property
+  input:
+    width: 30px
+  output: width:30px;
+
+- what: Multiple properties
+  input:
+    color: red
+    background: url(abc.png) purple no-repeat
+    border: 20px black solid
+  output: color:red;background:url(abc.png) purple no-repeat;border:20px black solid;
+
+- what: Property with a dash in its name
+  input:
+    border-width: 5px
+  output: border-width:5px;
+
+- what: Vendor prefixes
+  input:
+    -webkit-user-select: none
+  output: -webkit-user-select:none;
