@@ -1,10 +1,12 @@
-<h1><img
-  alt="orthodox"
-  width="420"
-  height="112"
-  src="https://cdn.rawgit.com/studio-b12/orthodox/4d7afcc/logo.png"
-  id="/"
-/></h1>
+<h1 align="center">
+  <img
+    lt="orthodox"
+    width="404"
+    height="472"
+    src="https://cdn.rawgit.com/studio-b12/orthodox/4238d1f/logo.svg"
+    id="/"
+  />
+</h1>
 
 **Styles as a JS object**  
 **– a strong, universal specification**
