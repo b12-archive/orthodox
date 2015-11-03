@@ -2,7 +2,7 @@
   "name": "orthodox-spec",
   "version": "0.0.0",
   "description": "An orthodox spec for style objects",
-  "main": "spec.yaml",
+  "main": "spec.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
