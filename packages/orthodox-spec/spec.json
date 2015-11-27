@@ -23,6 +23,20 @@
     "output": "border-width:5px"
   },
   {
+    "what": "Double quotes",
+    "input": {
+      "content": "\" \""
+    },
+    "output": "content:\" \""
+  },
+  {
+    "what": "Single quotes",
+    "input": {
+      "content": "' '"
+    },
+    "output": "content:' '"
+  },
+  {
     "what": "Vendor prefixes",
     "input": {
       "-webkit-user-select": "none"
