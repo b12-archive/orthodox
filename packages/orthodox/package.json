@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Render a style object into a style string",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "author": "Tomek Wiszniewski <t.wiszniewski@gmail.com> (https://github.com/tomekwi)",
   "devDependencies": {
     "orthodox-spec": "^1.0.1",
+    "tap-spec": "^2.2.2",
     "tape": "4.2.2",
     "tape-catch": "^1.0.4"
   },
