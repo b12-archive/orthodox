@@ -1,5 +1,8 @@
-module.exports = (style) => (
-  Object.keys(style)
-    .map(property => `${property}:${style[property]}`)
-    .join(';')
-);
+module.exports = function serialize(style) {
+  var result = ''
+  for (var property in style) {
+    if (result) result += ';'
+    result += property + ':' + style[property]
+  }
+  return result
+}
